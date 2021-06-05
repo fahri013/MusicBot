@@ -11,17 +11,17 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""**Dear {message.from_user.first_name}!
 
-😁 I am KINGBOT Music Player. 
+😁 Aku Ardhito Bot musik
 
-🥳 I can play music in your Telegram Group's Voice Chat😉
+🥳 Bisako Putar musik di grup Telegram Voice Chat mu😉
 
-Developed by ⚡ @Kartikrajofficial ⚡
+Pengembang by ⚡ @papirocknroll⚡
 
 My commands - type  /help to get commands, which work in grp
 
-Thanks for using .
+Terima kasih bro.
 
-Regrards [KINGBOT](https://t.me/KINGBOTOFFICIAL)
+Regrards [AREASULAWESI](https://t.me/AREASULAWESI)
 **
         """,
         reply_markup=InlineKeyboardMarkup(
@@ -31,10 +31,10 @@ Regrards [KINGBOT](https://t.me/KINGBOTOFFICIAL)
                         "🛠 DEPLOY LINK🛠", url="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fkartikrajofficial%2FMusicBot&template=https%3A%2F%2Fgithub.com%2Fkartikrajofficial%2FMusicBot")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/KINGBOTOFFICIALCHAT"
+                        "💬 Group", url="https://t.me/AREASULAWESI "
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/KINGBOTOFFICIAL"
+                        "🔊 Channel", url="https://t.me/AREA_SULAWESI "
                     )
                 ],[ 
                     InlineKeyboardButton(
@@ -47,12 +47,12 @@ Regrards [KINGBOT](https://t.me/KINGBOTOFFICIAL)
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**⭐KINGBOT MUSIC PLAYER IS ALWAYS ACTIVE!!⭐**""",
+      await message.reply_text("""**⭐ARDHITO MUSIC PLAYER IS ALWAYS ACTIVE!!⭐**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/KINGBOTOFFICIAL")
+                        "🔊 Channel", url="https://t.me/AREA_SULAWESI")
                 ]
             ]
         )
